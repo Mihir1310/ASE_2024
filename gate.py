@@ -60,10 +60,9 @@ def cli():
                 print(data.mid())
                 print(data.add())
                 print(data.stats())
-                
+
         i += 1
     return
 the = cli()
 
 # ---------------------------------------------------------------------------
-print(the)

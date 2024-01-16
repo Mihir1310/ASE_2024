@@ -5,7 +5,7 @@ class COLS:
     def __init__(self, row):
         self.x, self.y, self.all = [], [], []
         self.klass = None
-        print(row)
+
         for at, txt in enumerate(row):
             col = (NUM if txt[0].isupper() else SYM)(txt, at)
             self.all.append(col)
